@@ -56,7 +56,6 @@ grocery_mapping = {
     'STOP & SHOP',
     'WALGREENS',
     'COSTCO',
-    'WALMART',
     'H MART',): 'GROCERY'
 }
 
@@ -106,12 +105,13 @@ shopping_mapping = {
     'AMAZON',
     'AMZN',
     'STORE',
-    'BESTBUY',
     'EBAY',
     'CROCS',
     'NESPRESSO',
     'T.J. MAXX',
-    'IKEA'): 'SHOPPING'
+    'IKEA',
+    'BESTBUY',
+    'WALMART',): 'SHOPPING'
 }
 
 subscription_mapping = {
@@ -158,12 +158,11 @@ skip_mapping = {
     ('ONLINE PAYMENT THANK YOU',
     'Online payment from',
     'MOBILE PAYMENT - THANK YOU',
-    'BT*PARSONS XTREME',
-    'RING PROTECT PLUS',
-    'RING YEARLY PLAN'): 'SKIP'
+    'SKIP'): 'SKIP'
 }
 
 combined_mapping = {
+  **skip_mapping,
   **commute_mapping,
   **credit_card_mapping,
   **dining_mapping,
@@ -179,7 +178,6 @@ combined_mapping = {
   **transfer_mapping,
   **travel_mapping,
   **utilities_mapping,
-  **skip_mapping
 }
 
 category_mapping = {}

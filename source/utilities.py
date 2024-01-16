@@ -11,7 +11,6 @@ def sanitizeDataframe(df, sortBy='date'):
   df['category'] = df['description'].apply(categorize_description)
   df = df.sort_values(by=sortBy)
   return df[~df['category'].isin(['SKIP', 'INVESTMENT', 'TRANSFER'])]
-  return df;
 
 # Export by month
 def filter_df_at_month(df, month):
