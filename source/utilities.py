@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import source.category_mapping as cat_map
+from tabulate import tabulate
 
 def categorize_description(description):
     for substring, category in cat_map.category_mapping.items():
@@ -33,3 +34,14 @@ def showPercentage(df):
   category_sums = df.groupby('category')['transaction'].sum()
   category_percentages = ((category_sums / category_sums.sum()) * 100).astype(int).astype(str) + '%'
   print(category_percentages)
+
+def outputTable(df, fileName):
+  df = df.sort_values(by=['category', 'transaction'])
+  # print(tabulate(df, headers='keys', tablefmt='pretty'))
+
+  # Format the DataFrame as a table using tabulate
+  formatted_table = tabulate(df, headers='keys', tablefmt='pretty')
+
+  # Save the formatted table to a text file
+  with open(f'./output/{fileName}.txt', 'w') as file:
+      file.write(formatted_table)
