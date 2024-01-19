@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import source.category_mapping as cat_map
 from tabulate import tabulate
+import pandas as pd
 
 def categorize_description(description):
     for substring, category in cat_map.category_mapping.items():
@@ -37,7 +38,15 @@ def showPercentage(df):
 
 def outputTable(df, fileName):
   df = df.sort_values(by=['category', 'transaction'])
-  # print(tabulate(df, headers='keys', tablefmt='pretty'))
+  
+  def format_date(date):
+    return pd.to_datetime(date).strftime('%m-%d-%Y')
+  
+  def format_transaction(transaction):
+    return '${:.2f}'.format(transaction)
+  
+  df['date'] = df['date'].apply(format_date)
+  df['transaction'] = df['transaction'].apply(format_transaction)
 
   # Format the DataFrame as a table using tabulate
   formatted_table = tabulate(df, headers='keys', tablefmt='pretty')

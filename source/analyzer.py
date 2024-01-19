@@ -9,7 +9,10 @@ def analyzeCreditCard(month, year):
   appleDf = load.importApple(f'./input/credit/apple/{month}_{year}.csv');
   amexDf = load.importAmex(f'./input/credit/amex/{month}_{year}.csv');
 
-  df = pd.concat([wfDf, boaDf, appleDf, amexDf], axis=0)
+  dfs = [wfDf, boaDf, appleDf, amexDf]
+  non_null_dfs = [df for df in dfs if df is not None]
+
+  df = pd.concat(non_null_dfs, axis=0)
   df = util.sanitizeDataframe(df);
 
   # making transactions to be positive
