@@ -8,8 +8,9 @@ def analyzeCreditCard(month, year):
   boaDf = load.importBOACredit(f'./input/credit/boa/{month}_{year}.csv');
   appleDf = load.importApple(f'./input/credit/apple/{month}_{year}.csv');
   amexDf = load.importAmex(f'./input/credit/amex/{month}_{year}.csv');
+  tdDf = load.importTDCredit(f'./input/credit/td/{month}_{year}.csv')
 
-  dfs = [wfDf, boaDf, appleDf, amexDf]
+  dfs = [wfDf, boaDf, appleDf, amexDf, tdDf]
   non_null_dfs = [df for df in dfs if df is not None]
 
   df = pd.concat(non_null_dfs, axis=0)

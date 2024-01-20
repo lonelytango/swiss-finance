@@ -2,7 +2,8 @@ commute_mapping = {
     ('MTA',
     'OMNYPYG',
     'PARKMOBILE',
-    'E-Z*PASSNY'): 'COMMUTE',
+    'E-Z*PASSNY',
+    'PARKING METERS'): 'COMMUTE',
 }
 
 credit_card_mapping = {
@@ -35,7 +36,8 @@ dining_mapping = {
     'MCDONALD',
     'WENDYS',
     'SONIC',
-    'BURGER KING'): 'DINING'
+    'BURGER KING',
+    'DUNKIN'): 'DINING'
 }
 
 entertainment_mapping = {
@@ -56,7 +58,8 @@ grocery_mapping = {
     'STOP & SHOP',
     'WALGREENS',
     'COSTCO',
-    'H MART',): 'GROCERY'
+    'H MART',
+    'TRADER JOE'): 'GROCERY'
 }
 
 income_mapping = {
@@ -90,7 +93,8 @@ service_mapping = {
     'SERVICE',
     'Zelle Transfer',
     'USPS.COM',
-    '*AMERICAN SC'): 'SERVICE',
+    '*AMERICAN SC',
+    'Groupon'): 'SERVICE',
 }
 
 shopping_mapping = {
@@ -111,7 +115,9 @@ shopping_mapping = {
     'T.J. MAXX',
     'IKEA',
     'BESTBUY',
-    'WALMART',): 'SHOPPING'
+    'WALMART',
+    'LOWES',
+    'GAP'): 'SHOPPING'
 }
 
 subscription_mapping = {
