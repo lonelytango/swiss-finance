@@ -11,7 +11,8 @@ credit_card_mapping = {
     'Online Banking payment',
     'CREDIT CARD',
     'Bill Payment',
-    'APPLECARD GSBANK'): 'CREDIT CARD'
+    'APPLECARD GSBANK',
+    'TD BANK          PAYMENT'): 'CREDIT CARD'
 }
 
 dining_mapping = {
@@ -48,7 +49,8 @@ entertainment_mapping = {
 
 expense_mapping = {
     ('CHECK',
-    'Zelle payment',): 'EXPENSE',
+    'SVC CHARGE',
+    'NYC FINANCE'): 'EXPENSE',
 }
 
 grocery_mapping = {
@@ -74,23 +76,24 @@ income_mapping = {
 
 investment_mapping = {
     ('INTEREST',
-     'APPLE GS SAVINGS',
      'ROBINHOOD',
      'FID BKG SVC LLC',
-     'Monument Metals'): 'INVESTMENT',
+     'Monument Metals',
+     'DBS BANK'): 'INVESTMENT',
 }
 
 property_mapping = {
     ('NYC DOF DES', 
      'MORTGAGE',
      'WF HOME MTG',
-     'ESCROW'): 'PROPERTY'
+     'ESCROW',
+     'PTB Property',
+     'TOWN OF HEMPSTEA SERVICE'): 'PROPERTY'
 }
 
 service_mapping = {
     ('CLASSACTPHOTO',
     'EDUCATION',
-    'SERVICE',
     'Zelle Transfer',
     'USPS.COM',
     '*AMERICAN SC',
@@ -117,7 +120,12 @@ shopping_mapping = {
     'BESTBUY',
     'WALMART',
     'LOWES',
-    'GAP'): 'SHOPPING'
+    'GAP',
+    'Uniqlo',
+    'HARRYS',
+    'HONGKONGGEE',
+    'PADDLE.NET',
+    'Zara.com'): 'SHOPPING'
 }
 
 subscription_mapping = {
@@ -137,7 +145,10 @@ transfer_mapping = {
     'Online Banking transfer',
     'Move Funds',
     'TD BANK NA DES:ZELLE',
-    'ONLINE TRANSFER'): 'TRANSFER',
+    'ONLINE TRANSFER',
+    'SUN XINFANG',
+    'WAY2SAVE SAVINGS',
+    'APPLE GS SAVINGS'): 'TRANSFER',
 }
 
 travel_mapping = {
@@ -164,7 +175,13 @@ skip_mapping = {
     ('ONLINE PAYMENT THANK YOU',
     'Online payment from',
     'MOBILE PAYMENT - THANK YOU',
+    'PAYMENT - THANK YOU',
     'SKIP'): 'SKIP'
+}
+
+health_care_mapping = {
+  ('NORTHWELL',
+   'NATERA'): 'HEALTH CARE'
 }
 
 combined_mapping = {
@@ -174,6 +191,7 @@ combined_mapping = {
   **dining_mapping,
   **entertainment_mapping,
   **expense_mapping,
+  **health_care_mapping,
   **income_mapping, 
   **investment_mapping,
   **grocery_mapping,
@@ -190,4 +208,3 @@ category_mapping = {}
 for keys in combined_mapping:
   for key in keys:
     category_mapping[key] = combined_mapping[keys]
-category_mapping['NORTHWELL'] = 'HEALTH CARE'
