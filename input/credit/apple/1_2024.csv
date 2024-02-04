@@ -1,0 +1,10 @@
+Transaction Date,Clearing Date,Description,Merchant,Category,Type,Amount (USD),Purchased By
+01/30/2024,01/31/2024,"STOP & SHOP 0570 653 HILLSIDE AVE NEW HYDE PARK11040 NY USA","Stop & Shop","Grocery","Purchase","6.29","Zian Chen"
+01/29/2024,01/29/2024,"DAILY CASH ADJUSTMENT","Daily Cash Adjustment","Debit","Debit","2.18","Zian Chen"
+01/28/2024,01/29/2024,"WWW.YAMIBUY.COM 14969 SUMMIT DR EASTVALE 92880 CA USA (RETURN)","Www.yamibuy.com 14969 Summit Dr Eastvale 92880 Ca Usa (return)","Credit","Credit","-109.00","Zian Chen"
+01/28/2024,01/28/2024,"WWW.YAMIBUY.COM 14969 SUMMIT DR EASTVALE 92880 CA USA","Yamibuy","Grocery","Purchase","109.00","Zian Chen"
+01/24/2024,01/24/2024,"ACH DEPOSIT INTERNET TRANSFER FROM ACCOUNT ENDING IN 9780","Ach Deposit Internet Transfer From Account Ending In 9780","Payment","Payment","-34.23","Zian Chen"
+01/18/2024,01/19/2024,"7-ELEVEN 24568 1571 HEMPSTEAD TURNPIKE ELMONT 11003 NY USA","7-Eleven","Gas","Purchase","10.85","Zian Chen"
+01/17/2024,01/18/2024,"DOMINO'S 3609 1017 JERICHO TPKE NEW HYDE PARK11040 NY USA","Domino's Pizza","Restaurants","Purchase","15.19","Zian Chen"
+01/13/2024,01/13/2024,"GROUPON, INC. 600 W. CHICAGO AVE 312-288-6424 60654 IL USA","Groupon","Other","Purchase","20.00","Zian Chen"
+12/31/2023,01/02/2024,"BURGER KING #24134 Q071360 HEMPSTEAD TURNPIKE ELMONT 11003 NY USA","Burger King","Restaurants","Purchase","13.57","Zian Chen"

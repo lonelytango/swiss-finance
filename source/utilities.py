@@ -37,7 +37,7 @@ def showPercentage(df):
   print(category_percentages)
 
 def outputTable(df, fileName):
-  df = df.sort_values(by=['category', 'transaction'])
+  df = df.sort_values(by=['transaction'])
   
   def format_date(date):
     return pd.to_datetime(date).strftime('%m-%d-%Y')
@@ -49,7 +49,7 @@ def outputTable(df, fileName):
   df['transaction'] = df['transaction'].apply(format_transaction)
 
   # Format the DataFrame as a table using tabulate
-  formatted_table = tabulate(df, headers='keys', tablefmt='pretty')
+  formatted_table = tabulate(df, headers='keys', colalign=['center', 'center', 'center', 'left'])
 
   # Save the formatted table to a text file
   with open(f'./output/{fileName}.txt', 'w') as file:

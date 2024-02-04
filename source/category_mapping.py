@@ -50,7 +50,8 @@ entertainment_mapping = {
 expense_mapping = {
     ('CHECK',
     'SVC CHARGE',
-    'NYC FINANCE'): 'EXPENSE',
+    'NYC FINANCE',
+    'DBS BANK'): 'EXPENSE',
 }
 
 grocery_mapping = {
@@ -71,15 +72,15 @@ income_mapping = {
     'eDeposit',
     'BKOFAMERICA MOBILE',
     'MOBILE DEPOSIT',
-    'CASH DEPOSIT'): 'INCOME'
+    'CASH DEPOSIT',
+    'DAILY CASH ADJUSTMENT'): 'INCOME'
 }
 
 investment_mapping = {
     ('INTEREST',
      'ROBINHOOD',
      'FID BKG SVC LLC',
-     'Monument Metals',
-     'DBS BANK'): 'INVESTMENT',
+     'Monument Metals',): 'INVESTMENT',
 }
 
 property_mapping = {
@@ -96,8 +97,7 @@ service_mapping = {
     'EDUCATION',
     'Zelle Transfer',
     'USPS.COM',
-    '*AMERICAN SC',
-    'Groupon'): 'SERVICE',
+    '*AMERICAN SC'): 'SERVICE',
 }
 
 shopping_mapping = {
@@ -125,7 +125,11 @@ shopping_mapping = {
     'HARRYS',
     'HONGKONGGEE',
     'PADDLE.NET',
-    'Zara.com'): 'SHOPPING'
+    'Zara.com',
+    '7-ELEVEN',
+    'YAMIBUY',
+    'GROUPON',
+    'Groupon'): 'SHOPPING'
 }
 
 subscription_mapping = {
@@ -148,7 +152,8 @@ transfer_mapping = {
     'ONLINE TRANSFER',
     'SUN XINFANG',
     'WAY2SAVE SAVINGS',
-    'APPLE GS SAVINGS'): 'TRANSFER',
+    'APPLE GS SAVINGS',
+    'ACH DEPOSIT INTERNET TRANSFER'): 'TRANSFER',
 }
 
 travel_mapping = {
