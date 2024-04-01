@@ -38,7 +38,10 @@ dining_mapping = {
     'WENDYS',
     'SONIC',
     'BURGER KING',
-    'DUNKIN'): 'DINING'
+    'DUNKIN',
+    'CROXLEY',
+    'ORIENT GARDEN',
+    'PIZZA'): 'DINING'
 }
 
 entertainment_mapping = {
@@ -51,7 +54,8 @@ expense_mapping = {
     ('CHECK',
     'SVC CHARGE',
     'NYC FINANCE',
-    'DBS BANK'): 'EXPENSE',
+    'DBS BANK',
+    'Synchrony Bank'): 'EXPENSE',
 }
 
 grocery_mapping = {
@@ -62,18 +66,22 @@ grocery_mapping = {
     'WALGREENS',
     'COSTCO',
     'H MART',
-    'TRADER JOE'): 'GROCERY'
+    'TRADER JOE',
+    'BIGLOTS'): 'GROCERY'
 }
 
 income_mapping = {
     ('E6XUNITED',
-    'VENMO CASHOUT',
+    'VENMO',
     'ZELLE FROM',
     'eDeposit',
     'BKOFAMERICA MOBILE',
     'MOBILE DEPOSIT',
     'CASH DEPOSIT',
-    'DAILY CASH ADJUSTMENT'): 'INCOME'
+    'DAILY CASH ADJUSTMENT',
+    'IRS TREAS',
+    'NYSTTAXRFD',
+    'DEPOSIT'): 'INCOME'
 }
 
 investment_mapping = {
@@ -89,7 +97,10 @@ property_mapping = {
      'WF HOME MTG',
      'ESCROW',
      'PTB Property',
-     'TOWN OF HEMPSTEA SERVICE'): 'PROPERTY'
+     'TOWN OF HEMPSTEA SERVICE',
+     'Property Inc.',
+     'EGOV STRATEGIES',
+     'NYCPROPTAX'): 'PROPERTY'
 }
 
 service_mapping = {
@@ -97,7 +108,11 @@ service_mapping = {
     'EDUCATION',
     'Zelle Transfer',
     'USPS.COM',
-    '*AMERICAN SC'): 'SERVICE',
+    '*AMERICAN SC',
+    'MICROSOFT',
+    'TURBOTAX',
+    'eBay',
+    'Jamie Lin'): 'SERVICE',
 }
 
 shopping_mapping = {
@@ -129,7 +144,12 @@ shopping_mapping = {
     '7-ELEVEN',
     'YAMIBUY',
     'GROUPON',
-    'Groupon'): 'SHOPPING'
+    'Groupon',
+    'BJS WHOLESALE',
+    'APPLE.COM',
+    'THE HOME DEPOT',
+    'UNDER ARMOUR',
+    'Nike'): 'SHOPPING'
 }
 
 subscription_mapping = {
@@ -141,7 +161,8 @@ subscription_mapping = {
    'ADOBE',
    'INTUIT QUICKBOOKS',
    'Audible',
-   'Amazon Prime'): 'SUBSCRIPTION'
+   'Amazon Prime',
+   'CAPCUT'): 'SUBSCRIPTION'
 }
 
 transfer_mapping = {
@@ -186,7 +207,8 @@ skip_mapping = {
 
 health_care_mapping = {
   ('NORTHWELL',
-   'NATERA'): 'HEALTH CARE'
+   'NATERA',
+   'GREAT NECK ENT'): 'HEALTH CARE'
 }
 
 combined_mapping = {
