@@ -3,7 +3,9 @@ commute_mapping = {
     'OMNYPYG',
     'PARKMOBILE',
     'E-Z*PASSNY',
-    'PARKING METERS'): 'COMMUTE',
+    'PARKING METERS',
+    'NSUH PARKING',
+    'NYCDOT PARKING'): 'COMMUTE',
 }
 
 credit_card_mapping = {
@@ -41,7 +43,9 @@ dining_mapping = {
     'DUNKIN',
     'CROXLEY',
     'ORIENT GARDEN',
-    'PIZZA'): 'DINING'
+    'PIZZA',
+    'CHIPOTLE',
+    'KABUL GRILL'): 'DINING'
 }
 
 entertainment_mapping = {
@@ -88,7 +92,8 @@ investment_mapping = {
     ('INTEREST',
      'ROBINHOOD',
      'FID BKG SVC LLC',
-     'Monument Metals',): 'INVESTMENT',
+     'Monument Metals',
+     'GOSABK SV WEBXFR TRANSFER'): 'INVESTMENT',
 }
 
 property_mapping = {
@@ -162,7 +167,8 @@ subscription_mapping = {
    'INTUIT QUICKBOOKS',
    'Audible',
    'Amazon Prime',
-   'CAPCUT'): 'SUBSCRIPTION'
+   'CAPCUT',
+   'Hulu'): 'SUBSCRIPTION'
 }
 
 transfer_mapping = {
