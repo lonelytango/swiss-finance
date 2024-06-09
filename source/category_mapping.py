@@ -14,7 +14,8 @@ credit_card_mapping = {
     'CREDIT CARD',
     'Bill Payment',
     'APPLECARD GSBANK',
-    'TD BANK          PAYMENT'): 'CREDIT CARD'
+    'TD BANK          PAYMENT',
+    'CHASE CREDIT CRD'): 'CREDIT CARD'
 }
 
 dining_mapping = {
