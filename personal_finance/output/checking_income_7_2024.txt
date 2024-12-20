@@ -1,0 +1,11 @@
+       date      transaction   description                                                                             category
+--  ----------  -------------  --------------------------------------------------------------------------------------  ----------
+2   07-24-2024     $293.50     SMART CHOICE ACT DEPOSIT                                                                INCOME
+7   07-15-2024    $1000.00     E6XUNITED TECHNO DES:DIRECT DEP ID:XXXXX3471986E6X INDN:CHEN,ZIAN CO ID:XXXXX11103 PPD  INCOME
+11  07-31-2024    $1000.00     E6XUNITED TECHNO DES:DIRECT DEP ID:XXXXX1021819E6X INDN:CHEN,ZIAN CO ID:XXXXX11103 PPD  INCOME
+9   07-11-2024    $1268.52     E6XUNITED TECHNO DIRECT DEP                                                             INCOME
+1   07-29-2024    $1268.52     E6XUNITED TECHNO DIRECT DEP                                                             INCOME
+8   07-15-2024    $1500.00     E6XUNITED TECHNO DIRECT DEP 240715 516093471985E6X CHEN,ZIAN                            INCOME
+0   07-31-2024    $1500.00     E6XUNITED TECHNO DIRECT DEP 240731 542071021818E6X CHEN,ZIAN                            INCOME
+7   07-15-2024    $2000.00     eDeposit in Branch 07/15/24 09:08:10 AM 2499 JERICHO TPKE GARDEN CITY PARK NY 8592      INCOME
+10  07-02-2024    $2500.00     VENMO CASHOUT 240702 1035409991580 ZIAN CHEN                                            INCOME

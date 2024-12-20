@@ -1,0 +1,22 @@
+       date      transaction   description                                                                                                 category
+--  ----------  -------------  ----------------------------------------------------------------------------------------------------------  ------------
+12  07-09-2024      $5.74      TD BANK          PAYMENT                                                                                    CREDIT CARD
+4   07-17-2024     $10.00      PLANET FITNESS C ICLUB FEES                                                                                 SUBSCRIPTION
+9   07-17-2024     $10.00      PLANET FITNESS C DES:IClub Fees ID:PRXXXXX03323281 INDN:ZIAN CHEN CO ID:GXXXXX2737 PPD PMT INFO:XXXXX14320  SUBSCRIPTION
+10  07-29-2024     $10.67      PAYPAL DES:INST XFER ID:SPOTIFYUSAI INDN:ZIAN CHEN CO ID:PAYPALSI77 WEB                                     SUBSCRIPTION
+3   07-02-2024     $22.99      BANK OF AMERICA CREDIT CARD Bill Payment                                                                    CREDIT CARD
+13  07-08-2024     $39.99      VERIZON          PAYMENTREC                                                                                 UTILITIES
+8   07-12-2024     $42.11      LIPA             DIRECTPAY                                                                                  UTILITIES
+6   07-12-2024     $43.99      VERIZON*RECURRING PAY 07/11 PURCHASE 800-VERIZON FL                                                         UTILITIES
+3   07-17-2024     $68.00      CHECK # 178                                                                                                 EXPENSE
+1   07-01-2024     $77.20      NGRID37 DES:NGRID37 ID:XXXXX85075214 INDN:Zian Chen CO ID:XXXXX19782 PPD                                    UTILITIES
+11  07-10-2024     $84.79      NGRID37          NGRID37WEB                                                                                 UTILITIES
+5   07-11-2024     $85.94      Bank of America Credit Card Bill Payment                                                                    CREDIT CARD
+7   07-15-2024     $90.17      CREDIT CARD      WEB PYMT                                                                                   CREDIT CARD
+5   07-17-2024     $100.00     Synchrony Bank CC PYMT Jul 17 601918212168394 ZIAN CHEN                                                     EXPENSE
+10  07-10-2024     $175.62     LIPA             DIRECTPAY                                                                                  UTILITIES
+16  07-03-2024     $219.28     TD BANK          PAYMENT                                                                                    CREDIT CARD
+6   07-15-2024     $240.63     CHECK # 174                                                                                                 EXPENSE
+1   07-29-2024     $925.22     ONLINE TRANSFER REF #IB0NZN9472 TO WELLS FARGO AUTOGRAPH VISA CARD XXXXXXXXXXXX8978 ON 07/28/24             CREDIT CARD
+4   07-18-2024    $2000.00     ONLINE TRANSFER REF #IB0NWTLK83 TO WELLS FARGO AUTOGRAPH VISA CARD PAY FOR HISTORIA HOSPITAL BILL           CREDIT CARD
+11  07-01-2024    $6522.84     ONLINE TRANSFER REF #IB0NQ4PRY3 TO MORTGAGE JULY PRINCIPAL AND EXTRA                                        PROPERTY
